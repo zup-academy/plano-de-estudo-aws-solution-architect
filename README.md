@@ -183,6 +183,10 @@ O exame é oferecido através da plataforma da pearsonvue, nela é possível exe
 
 ### Como se preparar para o exame
 
+Aqui vai de como o estudante se sente em frente ao exame. Uma boa opção é se testar frente a um simulado e o resultado pode indicar a quantidade e ordem de material a ser estudado. 
+
+Em todo caso, consumir o curso e o readness antes dos simulados pode ser uma boa.
+
 #### Cursos
 
 * Certificação Amazon AWS Solutions Architect Associate 2023, do Andre Iacono em português:
