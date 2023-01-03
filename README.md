@@ -247,6 +247,8 @@ Durante as promoções na Udemy, é possível comprar esse curso por cerca de R$
 
 Ter acesso a uma conta ajuda bastante, é possível verificar fluxos de criação de recursos, como por exemplo criação de uma instância ec2, vpc sem gerar custo e isso pode ajudar muito durante o exame.
 
+A aws ainda conta com inúmeros recursos com camada de uso gratuito. Aproveite.
+
 #### Documentação
 
 * AWS Well-Architected
