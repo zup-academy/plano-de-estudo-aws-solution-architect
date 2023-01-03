@@ -72,87 +72,103 @@ A prova é dividida em domínios, que são:
 
 	- Modelo de responsabilidade compartilhada
 
-	- IAM
-		- Roles
-		- Menor privilégio
-		- Melhores práticas
-		- Billing Account
-		- Root account
-		- Policies
+		Tópicos chave:
 
-	- AWS KMS
-		- Gerenciada pela aws
-		- Gerenciada pelo cliente
-		- Importação de chaves
-		- Rotação de chaves
+			- IAM
+				- Roles
+				- Menor privilégio
+				- Melhores práticas
+				- Billing Account
+				- Root account
+				- Policies
 
-	- AWS CloudHSM
-		- Conceitos básicos
-	
-	- AWS VPC
-		- vpc
-		- subnets
+			- AWS KMS
+				- Gerenciada pela aws
+				- Gerenciada pelo cliente
+				- Importação de chaves
+				- Rotação de chaves
+
+			- AWS CloudHSM
+				- Conceitos básicos
+
+			- AWS VPC
+				- vpc
+				- subnets
+				- NAT Gateway
+			
+			- AWS VPN
+				- Conceitos básicos
 		
+			- AWS Direct Connect
+				-	Conceitos básicos
+
+			- AWS Snowball
+				- Conceitos básicos
+
 - Design de arquiteturas resilientes
 
-	- Amazon Elastic Block Store
-		- Custo
-		- Iops
-		- Persistência
-		- Tipos de volume e casos de uso
+		Tópicos chave:
 
-	- Elastic File System 
-		- Tipos de montagem
-		- Sistemas operacionais suportados
+			- Amazon Elastic Block Store
+				- Custo
+				- Iops
+				- Persistência
+				- Tipos de volume e casos de uso
 
-	- Amazon Simple Storage Service (s3)
-		- Classes de armazenamento
-		- Formas de transferência de dados
-		- Politicas de ciclo de vida
-		- Versionamento
-		- Locking
+			- Elastic File System 
+				- Tipos de montagem
+				- Sistemas operacionais suportados
 
-	- Arquiteturas com fraco acomplamento
-		- sqs
-		- sns
-		- lambda
-		- dynamodb
-		- Kinesis
+			- Amazon Simple Storage Service (s3)
+				- Classes de armazenamento
+				- Formas de transferência de dados
+				- Politicas de ciclo de vida
+				- Versionamento
+				- Locking
 
-	- Elastic Load Balancer 
-		- tipos de elb
-		- casos de uso
-		- acesso externo / interno
-		- Auto scalling group
-		- Placement groups
+			- Arquiteturas com fraco acomplamento
+				- sqs
+				- sns
+				- lambda
+				- dynamodb
+				- Kinesis
+
+			- Elastic Load Balancer 
+				- tipos de elb
+				- casos de uso
+				- acesso externo / interno
+				- Auto scalling group
+				- Placement groups
 
 - Design de arquiteturas de alta performance
 
-	- Amazon RDS
-		- Tipos de banco de dados
-		- Alta disponibilidade
-		- Read Réplicas
-		- Aurora Serveless
-		- Backups
-	
-	- Dynamodb
-		- Custo
-		- Cache
-		- throughput
-	
-	- Elasticache
-		- Redis
-		- Memcached
+		Tópicos chave:
 
-	- Cloudfront
-		- Caching
-		- Origins
-		- Lambda Edge
+			- Amazon RDS
+				- Tipos de banco de dados
+				- Alta disponibilidade
+				- Read Réplicas
+				- Aurora Serveless
+				- Backups
 
-	- Containers
-		- eks
-		- ecs
-		- ecr
+			- Dynamodb
+				- Custo
+				- Cache
+				- throughput
+
+			- Elasticache
+				- Redis
+				- Memcached
+
+			- Cloudfront
+				- Caching
+				- Origins
+				- Lambda Edge
+
+			- Containers
+				- eks
+				- ecs
+				- ecr
 		
 - Design de arquiteturas econômicas
 	
