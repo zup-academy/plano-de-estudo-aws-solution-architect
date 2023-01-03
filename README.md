@@ -52,10 +52,10 @@ compreensão do AWS Well-Architected Framework, da rede da AWS, dos serviços de
 
 ### Onde pesquisar
 
-Site aws
-Udemy
-Google
-Simulados
+* Site oficial da aws
+* Udemy
+* Google
+* Simulados
 
 ### Explorar o tema
 
@@ -69,9 +69,91 @@ A certificação solutions architect associate, atualmente em sua versão SAA C0
 A prova é dividida em domínios, que são:
 
 - Design de arquiteturas seguras
+
+	- Modelo de responsabilidade compartilhada
+
+	- IAM
+		- Roles
+		- Menor privilégio
+		- Melhores práticas
+		- Billing Account
+		- Root account
+		- Policies
+
+	- AWS KMS
+		- Gerenciada pela aws
+		- Gerenciada pelo cliente
+		- Importação de chaves
+		- Rotação de chaves
+
+	- AWS CloudHSM
+		- Conceitos básicos
+	
+	- AWS VPC
+		- vpc
+		- subnets
+		
 - Design de arquiteturas resilientes
+
+	- Amazon Elastic Block Store
+		- Custo
+		- Iops
+		- Persistência
+		- Tipos de volume e casos de uso
+
+	- Elastic File System 
+		- Tipos de montagem
+		- Sistemas operacionais suportados
+
+	- Amazon Simple Storage Service (s3)
+		- Classes de armazenamento
+		- Formas de transferência de dados
+		- Politicas de ciclo de vida
+		- Versionamento
+		- Locking
+
+	- Arquiteturas com fraco acomplamento
+		- sqs
+		- sns
+		- lambda
+		- dynamodb
+
+	- Elastic Load Balancer 
+		- tipos de elb
+		- casos de uso
+		- acesso externo / interno
+		- Auto scalling group
+		- Placement groups
+
 - Design de arquiteturas de alta performance
+
+	- Amazon RDS
+		- Tipos de banco de dados
+		- Alta disponibilidade
+		- Read Réplicas
+		- Aurora Serveless
+		- Backups
+	
+	- Dynamodb
+		- Custo
+		- Cache
+		- throughput
+	
+	- Elasticache
+		- Redis
+		- Memcached
+
+	- Cloudfront
+		- Caching
+		- Origins
+		- Lambda Edge
+
 - Design de arquiteturas econômicas
+	
+	- Calculadora aws
+	- Modelos de instâncias ec2 e custos (on demand, spot...)
+	- Qual modelo de armazenamento utilizar e seus custos (ebs, rds, s3...)
+  - Melhor solução X Custo beneficio
 
 Cada domínio possui o seu peso, é possível visualizar cada item nesta [doc](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
