@@ -286,8 +286,10 @@ https://aws.amazon.com/pt/compliance/shared-responsibility-model/
 https://aws.amazon.com/pt/faqs/
 
 ### Como você pode recuperar ?
-Escrever resumo sobre os tópicos abordados
-Fazer um video rápido para youtube
+
+Escrever resumo sobre os tópicos chave e ou serviços abordados e compara-los com demais cloud providers
+
+Fazer um video rápido para youtube sobre tópicos chaves e ou serviços abordados
 
 ## Valide seu conhecimento
 
