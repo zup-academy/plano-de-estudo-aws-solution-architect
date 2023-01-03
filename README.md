@@ -148,6 +148,11 @@ A prova é dividida em domínios, que são:
 		- Origins
 		- Lambda Edge
 
+	- Containers
+		- eks
+		- ecs
+		- ecr
+		
 - Design de arquiteturas econômicas
 	
 	- Calculadora aws
