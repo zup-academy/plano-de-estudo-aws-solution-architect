@@ -267,23 +267,41 @@ A aws ainda conta com inúmeros recursos com camada de uso gratuito. Aproveite.
 
 #### Documentação
 
-* AWS Well-Architected
+AWS Well-Architected
 
-Os pilares que sustentam a base teórica e prática (melhores) na aws:
+- [Os pilares que sustentam a base teórica e prática (melhores) na aws](https://aws.amazon.com/architecture/well-architected/)
 
-Link: https://aws.amazon.com/architecture/well-architected/
+Shared responsibility model
 
-* Shared responsibility model
+- [Documentação que esclarece os limites de responsabilidade compartilhada entre a AWS e o cliente](https://aws.amazon.com/pt/compliance/shared-responsibility-model/)
 
-Documentação que esclarece os limites de responsabilidade compartilhada entre a AWS e o cliente.
+AWS Faq's
 
-https://aws.amazon.com/pt/compliance/shared-responsibility-model/
+- [Perguntas frequentes de todos os serviços da aws](https://aws.amazon.com/pt/faqs/)
 
-* AWS Faq's
+Design de arquiteturas seguras
 
-É sempre bom recorrer a essa doc para pegar pontos chaves de serviços básicos e recorrentes durante o exame:
+- [Principios de design](https://wa.aws.amazon.com/wat.pillar.security.pt_BR.html)
 
-https://aws.amazon.com/pt/faqs/
+- [Fundamentos de segurança](https://aws.amazon.com/pt/faqs/)
+
+Design de arquiteturas resilientes
+
+- [Excelência operacional](https://wa.aws.amazon.com/wat.pillar.operationalExcellence.pt_BR.html)
+
+- [Abordagem da Amazon Web Services à resiliência operacional no setor financeiro e além](https://d1.awsstatic.com/whitepapers/pt_BR/compliance/AWS_Operational_Resilience.pdf)
+
+- [Arquiteturas Resilientes na Nuvem](https://thedevconf.s3-sa-east-1.amazonaws.com/presentations/TDC2021ED1/arquitetura/WVZ-4948_2021-03-25T035900_TDC+-+Arquiteturas+resilientes+na+nuvem+v3.pdf)
+
+Design de arquiteturas de alta performance
+
+- [Eficiência de performance](https://wa.aws.amazon.com/wat.pillar.performance.pt_BR.html)
+
+Design de arquiteturas econômicas
+
+- [Otimização de custos](https://wa.aws.amazon.com/wat.pillar.costOptimization.pt_BR.html)
+
+- [Recursos econômicos](https://docs.aws.amazon.com/pt_br/wellarchitected/latest/framework/a-cost-effective-resources.html)
 
 ### Como você pode recuperar ?
 
