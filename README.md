@@ -264,9 +264,10 @@ Um bom score nos simulados pode dar uma boa pista de como está o entendimento s
 ### Investigação de contexto
 
 ### Pessoas que são autoridade sobre o tema
-Arquitetos de soluções
-Devops/Sre's
-Pessoas já certificadas
+
+- Arquitetos de soluções
+- Devops/Sre's
+- Pessoas já certificadas
 
 ### Fontes de consumo fácil
 
