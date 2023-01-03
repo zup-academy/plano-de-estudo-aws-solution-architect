@@ -117,6 +117,7 @@ A prova é dividida em domínios, que são:
 		- sns
 		- lambda
 		- dynamodb
+		- Kinesis
 
 	- Elastic Load Balancer 
 		- tipos de elb
@@ -237,6 +238,10 @@ Simulados com um total de 390 perguntas com o tempo (para se aproximar do exame)
 O ponto chave aqui é se testar frente ao que a prova pede e aprender com as questões, no final é possível ver a explicação de cada pergunta e isso é muito bom.
 
 Durante as promoções na Udemy, é possível comprar esse curso por cerca de R$27,90.
+
+#### Acesso a console
+
+Ter acesso a uma conta ajuda bastante, é possível verificar fluxos de criação de recursos, como por exemplo criação de uma instância ec2, vpc sem gerar custo e isso pode ajudar muito durante o exame.
 
 #### Documentação
 
