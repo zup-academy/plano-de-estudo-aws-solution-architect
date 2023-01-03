@@ -72,7 +72,7 @@ A prova é dividida em domínios, que são:
 
 	- Modelo de responsabilidade compartilhada
 
-		Tópicos chave:
+		- Tópicos chave:
 
 			- IAM
 				- Roles
@@ -98,77 +98,76 @@ A prova é dividida em domínios, que são:
 			
 			- AWS VPN
 				- Conceitos básicos
-		
+
 			- AWS Direct Connect
-				-	Conceitos básicos
+				- Conceitos básicos
 
 			- AWS Snowball
 				- Conceitos básicos
 
 - Design de arquiteturas resilientes
 
-		Tópicos chave:
+	- Tópicos chave:
 
-			- Amazon Elastic Block Store
-				- Custo
-				- Iops
-				- Persistência
-				- Tipos de volume e casos de uso
+		- Amazon Elastic Block Store
+			- Custo
+			- Iops
+			- Persistência
+			- Tipos de volume e casos de uso
 
-			- Elastic File System 
-				- Tipos de montagem
-				- Sistemas operacionais suportados
+		- Elastic File System 
+			- Tipos de montagem
+			- Sistemas operacionais suportados
 
-			- Amazon Simple Storage Service (s3)
-				- Classes de armazenamento
-				- Formas de transferência de dados
-				- Politicas de ciclo de vida
-				- Versionamento
-				- Locking
+		- Amazon Simple Storage Service (s3)
+			- Classes de armazenamento
+			- Formas de transferência de dados
+			- Politicas de ciclo de vida
+			- Versionamento
+			- Locking
 
-			- Arquiteturas com fraco acomplamento
-				- sqs
-				- sns
-				- lambda
-				- dynamodb
-				- Kinesis
+		- Arquiteturas com fraco acomplamento
+			- sqs
+			- sns
+			- lambda
+			- dynamodb
+			- Kinesis
 
-			- Elastic Load Balancer 
-				- tipos de elb
-				- casos de uso
-				- acesso externo / interno
-				- Auto scalling group
-				- Placement groups
+		- Elastic Load Balancer 
+			- tipos de elb
+			- casos de uso
+			- acesso externo / interno
+			- Auto scalling group
+			- Placement groups
 
 - Design de arquiteturas de alta performance
 
-		Tópicos chave:
+	- Tópicos chave
+		- Amazon RDS
+			- Tipos de banco de dados
+			- Alta disponibilidade
+			- Read Réplicas
+			- Aurora Serveless
+			- Backup
 
-			- Amazon RDS
-				- Tipos de banco de dados
-				- Alta disponibilidade
-				- Read Réplicas
-				- Aurora Serveless
-				- Backups
+		- Dynamodb
+			- Custo
+			- Cache
+			- throughput
 
-			- Dynamodb
-				- Custo
-				- Cache
-				- throughput
+		- Elasticache
+			- Redis
+			- Memcache
 
-			- Elasticache
-				- Redis
-				- Memcached
-
-			- Cloudfront
-				- Caching
-				- Origins
-				- Lambda Edge
-
-			- Containers
-				- eks
-				- ecs
-				- ecr
+		- Cloudfront
+			- Caching
+			- Origins
+			- Lambda Edg
+			
+		- Containers
+			- eks
+			- ecs
+			- ecr
 		
 - Design de arquiteturas econômicas
 	
