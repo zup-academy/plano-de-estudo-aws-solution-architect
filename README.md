@@ -529,6 +529,7 @@ Twitter: https://twitter.com/bittix
 Leonardo Silva dos Santos (Especialista Devops) 
 
 Linkedin: https://www.linkedin.com/in/rmnobarra/
+
 Twitter: https://twitter.com/rmnobarra
 
 ### Fontes de consumo fácil
