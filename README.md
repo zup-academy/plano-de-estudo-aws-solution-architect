@@ -15,6 +15,32 @@ compreensão do AWS Well-Architected Framework, da rede da AWS, dos serviços de
 
 * Capacidade para identificar quais serviços da AWS atendem a um determinado requisito técnico e definir requisitos técnicos para uma aplicação baseada em AWS
 
+### Por quê obter a certificação AWS Certified Solutions Architect - Associate (motivação do plano de estudo)
+
+Existem várias razões pelas quais alguém poderia optar por obter a certificação AWS Certified Solutions Architect - Associate:
+
+- Validação de habilidades: a certificação demonstra que o indivíduo tem conhecimento e experiência em projetar soluções na nuvem usando o Amazon Web Services.
+
+- Destaque no mercado de trabalho: a certificação AWS é amplamente reconhecida e procurada por empregadores em todo o mundo. Ter a certificação pode ajudar a se destacar entre outros candidatos.
+
+- Aumento de salário: os profissionais certificados geralmente têm salários mais elevados do que aqueles sem certificação.
+
+- Oportunidades de crescimento profissional: a certificação pode abrir novas oportunidades de carreira para aqueles que buscam crescimento profissional na área de nuvem.
+
+- Atualização de habilidades: obter a certificação exige que o indivíduo mantenha-se atualizado com as últimas tendências e tecnologias na nuvem.
+
+### Pré requisitos
+
+Não há pré-requisitos oficiais exigidos pela Amazon para obter a certificação AWS Certified Solutions Architect - Associate, mas é recomendável ter alguma experiência prévia em projetar e implementar soluções na nuvem. Algumas dicas incluem:
+
+- Conhecimento prévio de infraestrutura de nuvem: ter familiaridade com conceitos de nuvem, como alta disponibilidade, escalabilidade, segurança, entre outros.
+
+- Conhecimento básico de serviços AWS: entender os serviços AWS mais comuns, como EC2, S3, VPC, entre outros.
+
+- Experiência prática: praticar projetando e implementando soluções na nuvem usando o AWS pode ser útil antes de realizar a prova de certificação.
+
+Em geral, a Amazon sugere que os candidatos tenham alguma experiência em projetar soluções em nuvem antes de se prepararem para a certificação. Além disso, existem muitos cursos e recursos de treinamento disponíveis online que podem ajudar a se preparar para a prova.
+
 ### palavras chaves
 
 - Design de arquiteturas seguras
@@ -105,6 +131,42 @@ A prova é dividida em domínios, que são:
 			- AWS Snowball
 				- Conceitos básicos
 
+Esse domínio habilita competências em (habilidades ganhas com o tópico apresentado):
+
+- Aplicar as práticas recomendadas de segurança da AWS a usuários do IAM e usuários-raiz (por exemplo, autenticação com multifator [MFA]).
+
+- Projetar um modelo de autorização flexível que inclua usuários, grupos, funções e políticas do IAM.
+
+- Projetar uma estratégia de controle de acesso baseada em função (por exemplo, AWS Security Token Service [AWS STS], mudança de função, acesso entre contas).
+
+- Projetar uma estratégia de segurança para várias contas da AWS (por exemplo, AWS Control Tower, políticas de controle de serviço [SCPs]).
+
+- Determinar o uso apropriado de políticas de recursos para os serviços da AWS.
+
+- Determinar quando federar um serviço de diretório com funções do IAM.
+
+- Projetar arquiteturas de VPC com componentes de segurança (por exemplo, security groups, tabelas de rotas, ACLs de rede, gateways NAT).
+
+- Determinar estratégias de segmentação de rede (por exemplo, usando sub-redes públicas e privadas).
+
+- Integrar serviços da AWS para proteger aplicativos (por exemplo, AWS Shield, AWS WAF, AWS SSO, AWS Secrets Manager).
+
+- Proteger conexões de rede externas de e para a nuvem AWS (por exemplo, VPN, AWS Direct Connect).
+
+- Alinhar as tecnologias da AWS para atender aos requisitos de conformidade.
+
+- Criptografia de dados em repouso (por exemplo, AWS Key Management Service [AWS KMS]).
+
+- Criptografia de dados em trânsito (por exemplo, AWS Certificate Manager [ACM] usando TLS).
+
+- Implementar políticas de acesso para chaves de criptografia.
+
+- Implementar backups e replicações de dados.
+
+- Implementar políticas para acesso, ciclo de vida e proteção de dados.
+
+- Alternar chaves de criptografia e renovar certificados.
+
 - Design de arquiteturas resilientes
 
 	- Tópicos chave:
@@ -140,6 +202,43 @@ A prova é dividida em domínios, que são:
 			- Auto scalling group
 			- Placement groups
 
+Esse domínio habilita competências em (habilidades ganhas com o tópico):
+
+- Projetar arquiteturas orientadas por eventos, microsserviços e/ou multicamadas com base em
+requisitos.
+
+- Determinar estratégias de scaling para componentes usados em um projeto de arquitetura.
+
+- Determinar os serviços da AWS necessários para obter um acomplamento fraco com base em
+requisitos.
+
+- Determinar quando usar contêineres.
+
+- Determinar quando usar tecnologias e padrões sem servidor.
+
+- Recomendar tecnologias apropriadas de computação, armazenamento, redes e banco de dados com base em requisitos.
+
+- Usar serviços da AWS com propósito específico para cargas de trabalho.
+
+- Determinar estratégias de automação para garantir a integridade da infraestrutura.
+
+- Determinar os serviços da AWS necessários para fornecer uma arquitetura altamente disponível e/ou tolerante a falhas nas Zonas de Disponibilidade ou Regiões AWS.
+
+- Identificar métricas com base nos requisitos empresariais para oferecer uma solução altamente
+disponível.
+
+- Implementar designs para mitigar pontos únicos de falha.
+
+- Implementar estratégias para garantir a durabilidade e a disponibilidade dos dados (por
+exemplo, backups).
+
+- Selecionar uma estratégia de DR apropriada para atender aos requisitos empresariais.
+
+- Usar serviços da AWS que melhoram a confiabilidade de aplicativos legados e aplicativos que não foram criados para a nuvem (por exemplo, quando não é possível fazer alterações nos
+aplicativos).
+
+- Usar serviços da AWS com propósito específico para cargas de trabalho.
+
 - Design de arquiteturas de alta performance
 
 	- Tópicos chave
@@ -168,13 +267,118 @@ A prova é dividida em domínios, que são:
 			- eks
 			- ecs
 			- ecr
-		
+
+Esse domínio habilita competências em (habilidades ganhas com o tópico):	
+
+- Determinar quais serviços e configurações de armazenamento atendem às demandas de desempenho.
+
+- Determinar quais serviços de armazenamento que podem ser dimensionados para atender às necessidades futuras.
+
+- Desacoplar cargas de trabalho para que os componentes possam ser dimensionados de forma independente.
+
+- Identificar métricas e condições para realizar ações de scaling.
+
+- Selecionar as opções e os recursos de computação apropriados (por exemplo, tipos de instância do EC2) para atender aos requisitos empresariais.
+
+- Selecionar o tipo e o tamanho de recurso apropriados (por exemplo, a quantidade de memória do Lambda) para atender aos requisitos empresariais.
+
+- Configurar réplicas de leitura para atender aos requisitos empresariais.
+
+- Projetar arquiteturas de banco de dados.
+
+- Determinar um mecanismo de banco de dados apropriado (por exemplo, MySQL em comparação com o PostgreSQL).
+
+- Determinar um tipo de banco de dados apropriado (por exemplo, Amazon Aurora, Amazon DynamoDB).
+
+- Integrar o armazenamento em cache para atender aos requisitos empresariais.
+
+- Criar uma topologia de rede para várias arquiteturas (por exemplo, global, híbrida, multicamadas).
+
+- Determinar quais configurações de rede podem ser dimensionadas para acomodar necessidades futuras.
+
+- Determinar o posicionamento adequado dos recursos para atender aos requisitos empresariais.
+
+- Selecionar a estratégia de balanceamento de carga apropriada.
+
+- Criar e proteger data lakes.
+
+- Projetar arquiteturas de streaming de dados.
+
+- Projetar soluções de transferência de dados.
+
+- Implementar estratégias de visualização.
+
+- Selecionar opções de computação apropriadas para processamento de dados (por exemplo, Amazon EMR).
+
+- Selecionar configurações apropriadas para ingestão.
+
+- Transformar dados entre formatos (por exemplo, .csv para .parquet).
+
 - Design de arquiteturas econômicas
-	
+  	
 	- Calculadora aws
 	- Modelos de instâncias ec2 e custos (on demand, spot...)
 	- Qual modelo de armazenamento utilizar e seus custos (ebs, rds, s3...)
-  - Melhor solução X Custo beneficio
+    - Melhor solução X Custo beneficio
+
+Esse domínio habilita competências em (habilidades ganhas com o tópico):	
+
+- Projetar estratégias de armazenamento apropriadas (por exemplo, fazer upload em lote para o Amazon S3 em comparação com upload individual).
+
+- Determinar o tamanho de armazenamento correto para uma carga de trabalho.
+
+- Determinar o método de menor custo de transferência de dados de uma carga de trabalho para o armazenamento da AWS.
+
+- Determinar quando o auto scaling de armazenamento é necessário.
+
+- Gerenciar ciclos de vida de objetos do S3.
+
+- Selecionar a solução apropriada de backup e/ou arquivamento.
+
+- Selecionar o serviço apropriado para a migração de dados aos serviços de armazenamento.
+
+- Selecionar o nível de armazenamento apropriado.
+
+- Selecionar o ciclo de vida de dados correto para armazenamento.
+
+- Selecionar o serviço de armazenamento mais econômico para uma carga de trabalho.
+
+- Determinar uma estratégia de balanceamento de carga apropriada (por exemplo, Application Load Balancer [camada 7] em comparação com o Network Load Balancer [camada 4] em comparação com o Gateway Load Balancer).
+
+- Determinar métodos e estratégias de scaling apropriados para cargas de trabalho elásticas (por exemplo, horizontal em comparação com vertical, hibernação do EC2).
+
+- Determinar serviços de computação da AWS econômicos com casos de uso apropriados (por exemplo, Lambda, Amazon EC2, Fargate)
+
+- Determinar a disponibilidade necessária para diferentes classes de cargas de trabalho (por exemplo, cargas de trabalho de produção e de não produção)
+
+- Escolher a família de instâncias apropriada para uma carga de trabalho.
+
+- Escolher o tamanho de instância apropriado para uma carga de trabalho.
+
+- Projetar políticas de backup e retenção apropriadas (por exemplo, frequência de snapshots).
+
+- Determinar um mecanismo de banco de dados apropriado (por exemplo, MySQL em comparação com o PostgreSQL).
+
+- Determinar serviços de banco de dados da AWS econômicos com casos de uso apropriados (por exemplo, DynamoDB em comparação com o Amazon RDS, sem servidor).
+
+- Determinar tipos de banco de dados da AWS econômicos (por exemplo, formato de série
+temporal, formato colunar).
+
+- Migrar esquemas e dados de banco de dados para diferentes locais e/ou diferentes mecanismos de banco de dados.
+
+- Configurar tipos de gateway NAT apropriados para uma rede (por exemplo, um único gateway NAT compartilhado em comparação com gateways NAT para cada Zona de Disponibilidade).
+
+- Configurar conexões de rede apropriadas (por exemplo, Direct Connect em comparação com a VPN e com a Internet).
+
+- Configurar rotas de rede apropriadas para minimizar os custos de transferência de rede (por exemplo, região para região, Zona de Disponibilidade para Zona de Disponibilidade, privado para público, Global Accelerator, endpoints de VPC).
+
+- Determinar necessidades estratégicas para redes de entrega de conteúdo (CDNs) e cache de borda.
+
+- Analisar as cargas de trabalho para otimizações de rede.
+
+- Selecionar uma estratégia de limitação de largura de banda apropriada.
+
+- Selecionar a alocação de largura de banda apropriada para um dispositivo de rede (por exemplo, uma única VPN em comparação com várias VPNs, velocidade do Direct Connect).
 
 Cada domínio possui o seu peso, é possível visualizar cada item nesta [doc](https://d1.awsstatic.com/pt_BR/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf)
 
@@ -316,9 +520,16 @@ Um bom score nos simulados pode dar uma boa pista de como está o entendimento s
 
 ### Pessoas que são autoridade sobre o tema
 
-- Arquitetos de soluções
-- Devops/Sre's
-- Pessoas já certificadas
+Deivid Bitti Padilha  (CEO / CTO Flexa Cloud) 
+
+Linkedin: https://www.linkedin.com/in/deividbitti/
+
+Twitter: https://twitter.com/bittix
+
+Leonardo Silva dos Santos (Especialista Devops) 
+
+Linkedin: https://www.linkedin.com/in/rmnobarra/
+Twitter: https://twitter.com/rmnobarra
 
 ### Fontes de consumo fácil
 
